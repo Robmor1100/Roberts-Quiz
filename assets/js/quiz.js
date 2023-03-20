@@ -79,7 +79,7 @@ function startTimer() {
         timeText.innerText = time;
         if (time === 0) {
             localStorage.setItem("mostRecentScore", score);
-            return window.location.assign("/end.html");
+            return window.location.assign("./end.html");
         }
     }, 1000);
 }
@@ -89,7 +89,7 @@ getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= max_questions) {
         localStorage.setItem("mostRecentScore", score);
 
-        return window.location.assign("/end.html");
+        return window.location.assign("./end.html");
     }
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${max_questions}`;
