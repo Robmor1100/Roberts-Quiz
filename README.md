@@ -1,9 +1,9 @@
-# Robert's Weather App
+# Robert's Quiz
 
 
 ## Description
 
-In its simplest form, this is a weather app. When given a city, it will display the current weather and a five-day forecast. In addition, this app will save your past city searches and show them on the left column for easy referencing.
+This project is just another regular online quiz. It randomly assigns questions from an array and, in the end, gives you a score to tell you how well you did. It also keeps track of your high scores.
 
 
 ## Table of Contents
@@ -18,17 +18,17 @@ In its simplest form, this is a weather app. When given a city, it will display 
 
 Clone the repositoryand play  around with it.
 
-or just vist the website: https://robmor1100.github.io/Robert-s-weather-app/
+or just vist the website: https://robmor1100.github.io/Roberts-Quiz/
 
 
 
 ## Usage
 
-To use this app, you only need to type a city in the search bar and hit the search button. Then, the app will automatically display the weather and add your search city to your history.
+To use this app, you must navigate to the deployed site and click the start button. Then answer the given questions to the best of your ability. And when the last question is answered, you will be given a score. You can save it or not. But if you do save it, it will be displayed on the high score chart.
 
 ## Roadmap
 
-Down the road, I would like to add more styling. Some of the componets need to be scaled.
+Down the road, I would like to add more questions and also a function that would subtract time when you answer a question wrong.
 
 
 ## Contributing
